@@ -4,7 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="createCardStyles.css"/>
+    <title>Create card</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <title> Create your DevCard </title>
+      <form class="center">
+        <label>
+          Create your DevCard
+        </label>
+        <div class="form-group">
+          <input type="text" name="fullName" class="form-control" placeholder="Full name" formmethod="post"><br>
+          <input type="text" name="aboutMe" class="form-control" placeholder="About Me" formmethod="post"><br>
+
+          <input type="checkbox" name="knownHTML" value="HTML">
+          <label for="knownHTML">HTML</label><br>
+          <input type="checkbox" name="knownCSS" value="CSS">
+          <label for="knownCSS">CSS</label><br>
+          <input type="checkbox" name="knownJS" value="JS">
+          <label for="knownHTML">JS</label><br>
+          <input type="checkbox" name="knownGIT" value="GIT">
+          <label for="knownCSS">Git</label><br>
+          <input type="checkbox" name="React" value="React">
+          <label for="knownCSS">React</label><br>
+          <input type="checkbox" name="Node.js" value="Node.js">
+          <label for="knownCSS">Node.js</label><br>
+
+          <input type="text" name="githubUrl" class="form-control" placeholder="Github URL" formmethod="post"><br>
+          <input type="text" name="twitterUrl" class="form-control" placeholder="Twitter URL" formmethod="post"><br>
+          <input type="text" name="favoriteBooks" class="form-control" placeholder="Favourite Books (Seperate by comma)" formmethod="post"><br>
+          <input type="text" name="favoriteArtists" class="form-control" placeholder="Favourite Artists (Seperate by comma)" formmethod="post"><br>
+        </div>
+        <button type="submit" class="btn btn-primary" formmethod="post">Create Site</button>
+      </form>
+    </main>
+  </body>
 </html>
+<!-- {
+  "id": "54az3",
+  "fullName": "Armaan Dhanji",
+  "aboutMe": "Hi, my name is Armaan Dhanji but I'm better known by my nickname @armaand, and I'm a teacher in the School of Computing at BCIT.",
+  "knownTechnologies": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Git",
+    "React",
+    "Node.js"
+  ],
+  "githubUrl": "github.com/adhanji8",
+  "twitterUrl": "twitter.com/bcit",
+  "favoriteBooks": [
+    "The Lord of the Rings - J. R. R. Tolkien",
+    "Foundation Series - Isaac Asimov",
+    "Cracking the Coding Interview - Gayle Laakmann",
+    "Clean Code - Rob Martin",
+    "A Brief History of Time - Stephen Hawking"
+  ],
+  "favoriteArtists": []
+} -->

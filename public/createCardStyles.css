@@ -1,0 +1,34 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: white;
+  background-position: center;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+input[type=text], select {
+    width: 15%;
+    padding: 10px 15px;
+    margin: 4px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+button[type=submit] {
+    width: 15%;
+    padding: 10px 15px;
+    margin: 4px 0;
+  }
+
+.center {
+    text-align: center;
+}
